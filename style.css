@@ -53,3 +53,20 @@ body {
     color: black;
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
+.start-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 12px 18px;
+    background: #2d7ef7;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    transition: 0.2s;
+}
+
+.start-button:hover {
+    transform: translateY(-2px);
+    background: #1f66d6;
+}
