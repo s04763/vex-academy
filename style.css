@@ -109,3 +109,23 @@ body {
     margin-top: 10px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
+
+.hidden {
+    display: none;
+}
+
+#deviceSelector {
+    margin-top: 15px;
+}
+
+.device-option {
+    display: block;
+    width: 100%;
+    margin-top: 8px;
+    padding: 12px;
+
+    border: none;
+    border-radius: 10px;
+
+    cursor: pointer;
+}
