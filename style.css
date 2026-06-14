@@ -129,3 +129,17 @@ body {
 
     cursor: pointer;
 }
+
+.port-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.port-btn {
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
